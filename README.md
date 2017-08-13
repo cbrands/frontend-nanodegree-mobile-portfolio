@@ -27,7 +27,10 @@ Some useful tips to help you get started:
 ## Optimization steps
 The original score on pagespeed was 28 for mobile and 30 for desktop.
 added async attribute to google analytics javascript tag to unblock page rendering
-The pagespeed score is still 28 for mobile and 30 for desktop (28/30)
+The pagespeed score is still 28 for mobile but 30 for desktop (28/30)
+Added media print to print stylesheet.
+score 28/30
+
 
 
 ## TODO Old readme below delete when no longer needed
