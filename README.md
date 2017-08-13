@@ -30,7 +30,8 @@ added async attribute to google analytics javascript tag to unblock page renderi
 The pagespeed score is still 28 for mobile but 30 for desktop (28/30)
 Added media print to print stylesheet.
 score 28/30
-
+created a thumb sized image for the pizzeria
+score 78/89
 
 
 ## TODO Old readme below delete when no longer needed
