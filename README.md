@@ -26,12 +26,15 @@ Some useful tips to help you get started:
 
 ## Optimization steps
 The original score on pagespeed was 28 for mobile and 30 for desktop.
-added async attribute to google analytics javascript tag to unblock page rendering
-The pagespeed score is still 28 for mobile but 30 for desktop (28/30)
-Added media print to print stylesheet.
-score 28/30
-created a thumb sized image for the pizzeria
-score 78/89
+* Added async attribute to google analytics javascript tag to unblock page rendering
+* Added media print attribute to the link for print stylesheet.
+* Created a thumb sized image for the pizzeria
+* Compressed all images
+* Loading google webfont asynchroneously helpt significantly. Pagespeed still saw it as a performance hog so finally google webfont was eliminated altogether.
+* Minimized css using[cssminifier](https://cssminifier.com/) and placed the resulting css inline in index.html.
+
+final score 93 for mobile and 94 for desktop
+
 
 
 ## TODO Old readme below delete when no longer needed
