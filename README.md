@@ -41,5 +41,9 @@ To optimize views/pizza.html, you will need to modify views/js/main.js until you
 
 ## Optimization steps
 * Replaced querySelectorAll with getElementsByClassName
+* Replaced querySelector's with getElementById
 * Placed the calculation of newWidth outside of the loop
-* Calculated the number of pizzas to loop over 200 was way to much 
+* placed every call to the dom outside loops
+* Calculated the number of pizzas to loop over. 
+* Using the requestAnimationFrame method to get the animation in a single reflow paint cycle
+* As the styling limits the pizzeria image to a with of 720 I replaced that image with a version of that with
