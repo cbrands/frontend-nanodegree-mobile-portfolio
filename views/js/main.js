@@ -483,7 +483,7 @@ var resizePizzas = function(size) {
         //Now we can loop
         var pizzaContainerLength = randomPizzaContainer.length;
         for (var i = 0; i < pizzaContainerLength; i++) {
-            randomPizzaContainer[i].style.width = newWidth + "%";
+            randomPizzaContainer[i].style.width = newWidth;
         }
     }
 
