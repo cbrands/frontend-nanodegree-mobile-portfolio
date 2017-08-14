@@ -31,6 +31,7 @@ The original score on pagespeed was 28 for mobile and 30 for desktop.
 * Compressed all images
 * Loading google webfont asynchroneously helpt significantly. Pagespeed still saw it as a performance hog so finally google webfont was eliminated altogether.
 * Minimized css using[cssminifier](https://cssminifier.com/) and placed the resulting css inline in index.html.
+* After some testing I noticed that the speed gain came from the inline css and not from minifiyng css. So for readability I replaced the minified inline css with the full css but kept it inline
 
 final score 93 for mobile and 94 for desktop
 
